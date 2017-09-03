@@ -21,13 +21,13 @@ h1, div {
 @keyframes bottomFadeOut1 {
   0% {
     position: absolute;
-    bottom: 675px;
+    bottom: 77%;
     opacity: 0;
   }
 
   75% {
     position: absolute;
-    bottom: 705px;
+    bottom: 81%;
     opacity: 1;
   }
 
@@ -41,7 +41,7 @@ h1, div {
   font-size: 12 px;
   position: absolute;
   left: 0%;
-  bottom: 705px;
+  bottom: 81%;
   opacity: 1;
   animation-name: bottomFadeOut1;
   animation-duration: 2.5s;
@@ -50,13 +50,13 @@ h1, div {
 @keyframes bottomFadeOut2 {
   0% {
     position: absolute;
-    bottom: 645px;
+    bottom: 72%;
     opacity: 0;
   }
 
   75% {
     position: absolute;
-    bottom: 675px;
+    bottom: 76%;
     opacity: 1;
   }
 
@@ -70,7 +70,7 @@ h1, div {
   font-size: 12 px;
   position: absolute;
   left: 0%;
-  bottom: 675px;
+  bottom: 76%;
   opacity: 1;
   animation-name: bottomFadeOut2;
   animation-duration: 2.5s;
