@@ -75,6 +75,75 @@ h1, div {
   animation-name: bottomFadeOut2;
   animation-duration: 2.5s;
 }
+
+@keyframes slideleft1 {
+  0% {
+  position: absolute;
+  bottom: 50%;
+  right: 0%;
+}
+
+  100% {
+  position: absolute;
+  bottom: 50%;
+  right: 81%;
+}
+}
+
+.seventh-text {
+  font-size: 12 px;
+  position: absolute;
+  right: 81%;
+  bottom: 50%;
+  animation-name: slideleft1;
+  animation-duration: 1s;
+}
+
+@keyframes slideleft2 {
+  0% {
+  position: absolute;
+  bottom: 45%;
+  right: 0%;
+}
+
+  100% {
+  position: absolute;
+  bottom: 45%;
+  right: 70%;
+}
+}
+
+.eighth-text {
+  font-size: 12 px;
+  position: absolute;
+  right: 70%;
+  bottom: 45%;
+  animation-name: slideleft2;
+  animation-duration: 1.3s;
+}
+
+@keyframes slideleft3 {
+  0% {
+  position: absolute;
+  bottom: 40%;
+  right: 0%;
+}
+
+  100% {
+  position: absolute;
+  bottom: 40%;
+  right: 73%;
+}
+}
+
+.ninth-text {
+  font-size: 12 px;
+  position: absolute;
+  right: 73%;
+  bottom: 40%;
+  animation-name: slideleft3;
+  animation-duration: 1.6s;
+}
 </style>
 </head>
 <body>
@@ -83,6 +152,9 @@ h1, div {
 <hr>
 <div class="fifth-text">W3Schools background image example.</div>
 <div class="sixth-text">The background image is only showing once, but it is disturbing the reader!</div>
+<div class="seventh-text">Yeah but whatever.</div>
+<div class="eighth-text">We can manipulate the image.</div>
+<div class="ninth-text">That way it's easier to read.</div>
 
 </body>
 </html>
