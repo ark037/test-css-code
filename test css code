@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url("https://i.pinimg.com/736x/e1/5f/b2/e15fb225374f8e12ffb67f8fd7b45eb7--walk-in-closet-closets.jpg");
+    background-repeat: no-repeat;
+
+    
+}
+h1 {
+    text-align: center;
+}
+
+h1, div {
+    font-family: Arial;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
+
+@keyframes bottomFadeOut1 {
+  0% {
+    position: absolute;
+    bottom: 675px;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 705px;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+  
+}
+
+.fifth-text {
+  font-size: 12 px;
+  position: absolute;
+  left: 0%;
+  bottom: 705px;
+  opacity: 1;
+  animation-name: bottomFadeOut1;
+  animation-duration: 2.5s;
+}
+
+@keyframes bottomFadeOut2 {
+  0% {
+    position: absolute;
+    bottom: 645px;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 675px;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+  
+}
+
+.sixth-text {
+  font-size: 12 px;
+  position: absolute;
+  left: 0%;
+  bottom: 675px;
+  opacity: 1;
+  animation-name: bottomFadeOut2;
+  animation-duration: 2.5s;
+}
+</style>
+</head>
+<body>
+
+<h1>Welcome to YAzZy!</h1>
+<hr>
+<div class="fifth-text">W3Schools background image example.</div>
+<div class="sixth-text">The background image is only showing once, but it is disturbing the reader!</div>
+
+</body>
+</html>
