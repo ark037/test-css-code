@@ -3,158 +3,157 @@
 <head>
 <style>
 body {
-    background-image: url("https://i.pinimg.com/736x/e1/5f/b2/e15fb225374f8e12ffb67f8fd7b45eb7--walk-in-closet-closets.jpg");
-    background-repeat: no-repeat;
-
-    
-}
-h1 {
-    text-align: center;
-}
-
-h1, div {
-    font-family: Arial;
-    text-shadow: 2px 2px 5px black;
-    color: white;
+  background-image: url("http://www.tailoredliving.com/uploadedImages/Corporate/Images/Products/Closets/New_Walk-In_Closets/UltimateWalkInClosets-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @keyframes bottomFadeOut1 {
   0% {
-    position: absolute;
-    bottom: 77%;
+    position: center;
     opacity: 0;
-  }
-
-  75% {
-    position: absolute;
-    bottom: 81%;
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 1;
-  }
-  
 }
 
-.fifth-text {
-  font-size: 12 px;
-  position: absolute;
-  left: 0%;
-  bottom: 81%;
+  100% {
+    position: center;
+    opacity: 1;
+}
+}
+
+h1 {
+  text-align: center;
   opacity: 1;
   animation-name: bottomFadeOut1;
-  animation-duration: 2.5s;
+  animation-duration: 2s;
 }
 
-@keyframes bottomFadeOut2 {
-  0% {
-    position: absolute;
-    bottom: 72%;
-    opacity: 0;
-  }
-
-  75% {
-    position: absolute;
-    bottom: 76%;
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 1;
-  }
-  
+div, h1, p{
+  font-family: Verdana;
+  text-shadow: 2px 2px 5px black;
+  color: white;
 }
 
-.sixth-text {
-  font-size: 12 px;
-  position: absolute;
-  left: 0%;
-  bottom: 76%;
-  opacity: 1;
-  animation-name: bottomFadeOut2;
-  animation-duration: 2.5s;
+p {
+  font-size: 12px;
 }
 
 @keyframes slideleft1 {
   0% {
   position: absolute;
-  bottom: 50%;
-  right: 0%;
+  left: 40%;
+  opacity: 0;
 }
 
   100% {
   position: absolute;
-  bottom: 50%;
-  right: 81%;
+  left: 1%;
+  opacity 1;
 }
 }
 
-.seventh-text {
-  font-size: 12 px;
+.list-one {
   position: absolute;
-  right: 81%;
-  bottom: 50%;
+  left: 1%;
   animation-name: slideleft1;
   animation-duration: 1s;
 }
 
-@keyframes slideleft2 {
-  0% {
+.list-two {
   position: absolute;
-  bottom: 45%;
-  right: 0%;
+  left: 1%;
+  animation-name: slideleft1;
+  animation-duration: 1.4s;
+}
+
+.list-three {
+  position: absolute;
+  left: 1%;
+  animation-name: slideleft1;
+  animation-duration: 1.8s;
+}
+
+.list-four {
+  position: absolute;
+  left: 1%;
+  animation-name: slideleft1;
+  animation-duration: 2.2s;
+}
+
+/*
+@keyframes fadein1 {
+  0% {
+    position: absolute;
+    bottom: 77%;
+    opacity: 0;
 }
 
   100% {
-  position: absolute;
-  bottom: 45%;
-  right: 70%;
+    position: absolute;
+    bottom: 81%;
+    opacity: 1;
 }
 }
 
-.eighth-text {
-  font-size: 12 px;
+.intro-text {
   position: absolute;
-  right: 70%;
-  bottom: 45%;
-  animation-name: slideleft2;
-  animation-duration: 1.3s;
+  bottom: 81%;
+  animation-name: fadein1;
+  animation-duration: 1s;
 }
 
-@keyframes slideleft3 {
+@keyframes fadein2 {
   0% {
-  position: absolute;
-  bottom: 40%;
-  right: 0%;
+    position: absolute;
+    bottom: 74%;
+    opacity: 0;
 }
 
   100% {
-  position: absolute;
-  bottom: 40%;
-  right: 73%;
+    position: absolute;
+    bottom: 78%;
+    opacity: 1;
 }
 }
 
-.ninth-text {
-  font-size: 12 px;
+.list-header {
   position: absolute;
-  right: 73%;
-  bottom: 40%;
-  animation-name: slideleft3;
-  animation-duration: 1.6s;
+  bottom: 78%;
+  animation-name: fadein2;
+  animation-duration: 1s;
 }
+
+@keyframes fadein3 {
+  0% {
+    position: absolute;
+    bottom: 36%;
+    opacity: 0;
+}
+
+  100% {
+    position: absolute;
+    bottom: 40%;
+    opacity: 1;
+}
+}
+
+.get-started {
+  position: absolute;
+  bottom: 40%;
+  animation-name: fadein3;
+  animation-duration: 1s;
+}
+*/
 </style>
-</head>
-<body>
 
 <h1>Welcome to YAzZy!</h1>
-<hr>
-<div class="fifth-text">W3Schools background image example.</div>
-<div class="sixth-text">The background image is only showing once, but it is disturbing the reader!</div>
-<div class="seventh-text">Yeah but whatever.</div>
-<div class="eighth-text">We can manipulate the image.</div>
-<div class="ninth-text">That way it's easier to read.</div>
-
+<div class="intro-text">Bring your wardrobe to life! Organize what you want, how you want it, whenever you want it. All with a click of a button.</div><br><br>
+<div class="list-header">With the help of YAzZy:</div>
+<div class="list-one">-Upload your photos onto a database for easy access</div><br>
+<div class="list-two">-Access your online closet from wherever you want</div><br>
+<div class="list-three">-Add personalized categories, creating your perfect<br> outfits for any event, whether it be your best friend's<br> birthday party or a family vacation, or just based on<br> the type of clothing</div><br><br><br><br>
+<div class="list-four">-Have the ability to store items of clothing in multiple<br> categories with easy access</div><br><br><br><br>
+<div class="get-started">To get started, click on the Login button in the top-right corner!</div><br><br><br><br><br><br>
+<p>YAzZy is a Web Application project developed by the collaborative efforts of students at UC San Diego in the SPIS program</p>
 </body>
+</head>
 </html>
