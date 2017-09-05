@@ -3,7 +3,7 @@
 <head>
 <style>
 body {
-  background-image: url("http://www.tailoredliving.costym/uploadedImages/Corporate/Images/Products/Closets/New_Walk-In_Closets/UltimateWalkInClosets-5.jpg");
+  background-image: url("http://www.tailoredliving.com/uploadedImages/Corporate/Images/Products/Closets/New_Walk-In_Closets/UltimateWalkInClosets-5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -82,21 +82,18 @@ p {
 
 .intro-text {
   position: absolute;
-  bottom: 81%;
   animation-name: bottomFadeOut1;
   animation-duration: 1s;
 }
 
 .list-header {
   position: absolute;
-  bottom: 78%;
   animation-name: bottomFadeOut1;
   animation-duration: 1s;
 }
 
 .get-started {
   position: absolute;
-  bottom: 40%;
   animation-name: bottomFadeOut1;
   animation-duration: 1s;
 }
@@ -104,8 +101,8 @@ p {
 </style>
 
 <h1>Welcome to YAzZy!</h1>
-<div class="intro-text">Bring your wardrobe to life! Organize what you want, how you want it, whenever you want it. All with a click of a button.</div><br><br>
-<div class="list-header">With the help of YAzZy:</div>
+<div class="intro-text">Bring your wardrobe to life! Organize what you want, how you want it, whenever you want it. All with a click of a button.</div><br><br><br><br>
+<div class="list-header">With the help of YAzZy:</div><br>
 <div class="list-one">-Upload your photos onto a database for easy access</div><br>
 <div class="list-two">-Access your online closet from wherever you want</div><br>
 <div class="list-three">-Add personalized categories, creating your perfect<br> outfits for any event, whether it be your best friend's<br> birthday party or a family vacation, or just based on<br> the type of clothing</div><br><br><br><br>
