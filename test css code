@@ -80,70 +80,27 @@ p {
   animation-duration: 2.2s;
 }
 
-/*
-@keyframes fadein1 {
-  0% {
-    position: absolute;
-    bottom: 77%;
-    opacity: 0;
-}
-
-  100% {
-    position: absolute;
-    bottom: 81%;
-    opacity: 1;
-}
-}
-
 .intro-text {
   position: absolute;
   bottom: 81%;
-  animation-name: fadein1;
+  animation-name: bottomFadeOut1;
   animation-duration: 1s;
-}
-
-@keyframes fadein2 {
-  0% {
-    position: absolute;
-    bottom: 74%;
-    opacity: 0;
-}
-
-  100% {
-    position: absolute;
-    bottom: 78%;
-    opacity: 1;
-}
 }
 
 .list-header {
   position: absolute;
   bottom: 78%;
-  animation-name: fadein2;
+  animation-name: bottomFadeOut1;
   animation-duration: 1s;
-}
-
-@keyframes fadein3 {
-  0% {
-    position: absolute;
-    bottom: 36%;
-    opacity: 0;
-}
-
-  100% {
-    position: absolute;
-    bottom: 40%;
-    opacity: 1;
-}
 }
 
 .get-started {
   position: absolute;
   bottom: 40%;
-  animation-name: fadein3;
+  animation-name: bottomFadeOut1;
   animation-duration: 1s;
 }
-*/
+
 </style>
 
 <h1>Welcome to YAzZy!</h1>
