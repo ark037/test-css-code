@@ -35,6 +35,7 @@ div, h1, p{
 
 p {
   font-size: 12px;
+  text-align: center;
 }
 
 @keyframes slideleft1 {
@@ -153,7 +154,7 @@ p {
 <div class="list-three">-Add personalized categories, creating your perfect<br> outfits for any event, whether it be your best friend's<br> birthday party or a family vacation, or just based on<br> the type of clothing</div><br><br><br><br>
 <div class="list-four">-Have the ability to store items of clothing in multiple<br> categories with easy access</div><br><br><br><br>
 <div class="get-started">To get started, click on the Login button in the top-right corner!</div><br><br><br><br><br><br>
-<p>YAzZy is a Web Application project developed by the collaborative efforts of students at UC San Diego in the SPIS program</p>
+<p>YAzZy is a Web Application project developed by the collaborative<br> efforts of students at UC San Diego in the SPIS program</p>
 </body>
 </head>
 </html>
